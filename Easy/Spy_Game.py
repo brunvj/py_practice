@@ -18,6 +18,6 @@ def spy_game(nums):
         #if nums[x] == 0 and nums[x+1] == 0 and nums[x+2] == 7:
         #    final_verdict = True
         # Otherwise, continue
-				else:
+	else:
             continue
     return final_verdict
