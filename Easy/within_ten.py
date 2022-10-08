@@ -14,3 +14,8 @@ def almost_there(n):
         return True
     else:
         return False
+
+# More efficient:
+
+def almost_there(n):
+    return (abs(100-n) <= 100) or (abs(200-n) <= 10)
