@@ -21,3 +21,13 @@ def spy_game(nums):
 	else:
             continue
     return final_verdict
+
+# Udemy's Solution:
+def spy_game(nums):
+	code = [0,0,7,'x']
+	# [0,7,'x']
+	# [7,'x']
+	# ['x'] length = 1
+	for num in nums:
+		code.pop(0)
+	return len(code) == 1
